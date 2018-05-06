@@ -35,4 +35,17 @@ print(haohao.name)
 print(haohao.age)
 
 
-
+class Person():
+    # name 是共有的成员
+    name = 'liuying'
+    # __age就是私有成员
+    __age = 18
+class Person():
+#  name 是共有的成员
+    name = 'liuying'
+    # __age就是私有成员
+    __age = 18
+p = Person()
+print(p.name)
+# name mangling 技术
+print(p._Person__age)
