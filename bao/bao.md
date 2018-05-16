@@ -63,3 +63,11 @@
         | - - - | - - - | - - - 子包模块1
         | - - - | - - - | - - - 子包模块2
         
+- 包的导入操作
+    - import package_name
+        - 直接导入一个包，可以使用__init__.py中的内容
+        -使用方式：
+                
+                package_name.func_name
+                package_name.class_name.func_name()
+        - 此种方式的访问内容是
