@@ -24,4 +24,4 @@ def symmetricsString():
         print('No')
         function()
 
-symmetricsString()    
+symmetricsString()
